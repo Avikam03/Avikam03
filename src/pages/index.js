@@ -184,11 +184,17 @@ const IndexPage = () => (
     <div class="content has-text-centered">
       <p>
       </p>
-      <p>
-        <a href="https://www.github.com/avikam03" target="_blank"><img src="https://img.icons8.com/material-sharp/48/000000/github.png"/></a>
+      <p id="sociallinks">
+        {/* <a href="https://www.github.com/avikam03" target="_blank"><img src="https://img.icons8.com/material-sharp/48/000000/github.png"/></a>
         <a href="https://www.instagram.com/avikammangla" target="_blank"><img src="https://img.icons8.com/windows/48/000000/instagram-new.png"/></a>
         <a href="https://www.linkedin.com/in/avikammangla" target="_blank"><img src="https://img.icons8.com/windows/48/000000/linkedin-2.png"/></a>
-        <a href="mailto:avikam03@gmail.com" target="_blank"><img src="https://img.icons8.com/material-outlined/48/000000/important-mail.png"/></a>
+        <a href="mailto:avikam03@gmail.com" target="_blank"><img src="https://img.icons8.com/material-outlined/48/000000/important-mail.png"/></a> */}
+        <a class="fa fa-github mr-1 ml-1" href="https://www.github.com/avikam03"></a>
+        <a class="fa fa-linkedin mr-1 ml-1" href="https://www.linkedin.com/in/avikammangla"></a>
+        <a class="fa fa-envelope mr-1 ml-1" href="mailto:avikam03@gmail.com"></a>
+        <a class="fa fa-facebook mr-1 ml-1" href="facebook.com/avikammangla"></a>
+        <a class="fa fa-instagram mr-1 ml-1" href="https://www.instagram.com/avikammangla"></a>
+        
       </p>
     </div>
   </footer>
