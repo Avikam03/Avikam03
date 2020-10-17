@@ -56,7 +56,7 @@ const IndexPage = () => (
 
     <section class="section mb-6 pt-6 mt-6 pb-6">
     <div class="container">
-      <h1 class="title is-1 mt-3 pb-6 ml-5">
+      <h1 class="title is-1 mt-5 pb-6 ml-5">
         Hey There! 👋 I'm Avikam Mangla, a 17 year old programmer from New Delhi.
       </h1>
     </div>
@@ -65,7 +65,7 @@ const IndexPage = () => (
     <section class="section">
     <div class="columns is-multiline mx-6 pt-6 mt-6">
         <div class="column is-half mr-5">
-          <div class="content is-medium">
+          <div class="content is-large">
             <h2 class = "title is-1 mt-2">About</h2>
             <p>I'm Avikam, a High School Senior at Delhi Public School  R K Puram.</p>
             <p>I love creating things, and most importantly, putting my skills to good use.</p>
@@ -92,10 +92,10 @@ const IndexPage = () => (
         <section class="section">
           <div class="columns is-multiline mx-6 pt-6">
               <div class="column is-half mr-6">
-                <h1 class="title is-2 ">
+                <p class="title is-2 ">
                   <img src="https://img.icons8.com/color/48/000000/books.png"/>
                   Education
-                </h1>
+                </p>
                 <h1 class="title is-4">
                   Delhi Public School R K Puram - Class of 2021
                 </h1>
@@ -129,10 +129,10 @@ const IndexPage = () => (
                 </ul>
               </div>
               <div class="column ml-5">
-                <h1 class="title is-2">
+                <p class="title is-2">
                   <img src="https://img.icons8.com/fluent/48/000000/work.png"/>
                   Skills
-                </h1>
+                </p>
                 <h1 class="title is-4 mt-3">
                   Web Development &nbsp;
                   <span class="fa fa-star"></span>
@@ -180,15 +180,8 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-      </p>
+    <div class="content has-text-centered mb-6 mt-6">
       <p id="sociallinks">
-        {/* <a href="https://www.github.com/avikam03" target="_blank"><img src="https://img.icons8.com/material-sharp/48/000000/github.png"/></a>
-        <a href="https://www.instagram.com/avikammangla" target="_blank"><img src="https://img.icons8.com/windows/48/000000/instagram-new.png"/></a>
-        <a href="https://www.linkedin.com/in/avikammangla" target="_blank"><img src="https://img.icons8.com/windows/48/000000/linkedin-2.png"/></a>
-        <a href="mailto:avikam03@gmail.com" target="_blank"><img src="https://img.icons8.com/material-outlined/48/000000/important-mail.png"/></a> */}
         <a class="fa fa-github mr-1 ml-1" href="https://www.github.com/avikam03"></a>
         <a class="fa fa-linkedin mr-1 ml-1" href="https://www.linkedin.com/in/avikammangla"></a>
         <a class="fa fa-envelope mr-1 ml-1" href="mailto:avikam03@gmail.com"></a>
@@ -197,8 +190,6 @@ const IndexPage = () => (
         
       </p>
     </div>
-  </footer>
-
   </div>
 
 
