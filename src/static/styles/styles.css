@@ -95,7 +95,7 @@ input:checked + .slider:before {
   padding-bottom: 0.5em;
   text-decoration: none;
   font-size: 28px;
-  
+    
 }
 
 #edu-heading{

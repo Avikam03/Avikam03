@@ -7,7 +7,7 @@ import Img from "gatsby-image"
 import '../static/styles/styles.css'
 import '../static/styles/bulma.css'
 
-import image from "../images/media/undraw_coding_6mjf.svg"
+import image from "../images/media/undraw_source_code_xx2e.svg"
 import siteicon from "../images/media/favicon.ico"
 
 
@@ -53,27 +53,32 @@ const IndexPage = () => (
       </div>
     </nav>
 
-    <section class="section mb-6 pt-6 mt-6 pb-6">
-    <div class="container">
-      <h1 class="title is-1 mt-5 pb-6 ml-5">
-        Hey There! 👋 I'm Avikam Mangla, a 17 year old programmer from New Delhi.
-      </h1>
-    </div>
-    </section>
-
     <section class="section">
-    <div class="columns is-multiline mx-6 pt-6 mt-6">
-        <div class="column is-half mr-5">
+    <div class="columns is-multiline mx-6 mb-6">
+        <div class="column is-half ">
           <div class="content is-large">
-            <h2 class = "title is-1 mt-2">About</h2>
-            <p>I'm Avikam, a High School Senior at Delhi Public School  R K Puram.</p>
-            <p>I love creating things, and most importantly, putting my skills to good use.</p>
-            <p>Over the summer vacations, I taught myself how to develop web applications. Ever since, I've made over a dozen web applications, and am really enjoying being a part of the developer community.</p>
+            <p class = "title is-1 mt-2">Hey There! 👋 </p>
+            <p class = "subtitle is-2">I'm <strong>Avikam Mangla</strong>, a 17 year old programmer from New Delhi.</p>
           </div>
         </div>
         <div class="column ml-6">
             <img src={image} height="6  00" width="700" />
         </div>
+    </div>
+    </section>
+
+
+    <section class="section hero is-light mt-6 pt-6">
+    <div class="columns is-multiline mx-6">
+        <div class="column has-text-centered">
+          <div class="content is-large">
+            <h2 class = "title is-1">About</h2>
+            <p>I'm Avikam, a High School Senior at Delhi Public School  R K Puram.</p>
+            <p>I love creating things, and most importantly, putting my skills to good use.</p>
+            <p>Over the summer vacations, I taught myself how to develop web applications. Ever since, I've made over a dozen web applications, and am really enjoying being a part of the developer community.</p>
+          </div>
+        </div>
+
     </div>
     </section>
 
