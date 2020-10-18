@@ -33,18 +33,17 @@ const Resume = () => (
                 
             
                 <div class="navbar-end">
+                <Link class="navbar-item" to="/resume" activeClassName="navbar-item">
+                    Resume
+                </Link>
                 <a class="navbar-item" activeClassName="navbar-item" href="http://blog.avikammangla.co/">
                     Blog
-                    </a>
-            
-                    <Link class="navbar-item" to="/resume" activeClassName="navbar-item">
-                    Resume
-                    </Link>
+                </a>
                 </div>
             </div>
         </nav>
 
-        <h1 class="title is-1 ml-6">Coming Soon</h1>
+        <h1 class="title is-1 ml-6 has-text-centered">Coming Soon</h1>
 
 
     </div>

@@ -22,7 +22,7 @@ const IndexPage = () => (
     <meta name="keywords" content="Avikam, Mangla, Avikam Mangla, Enship, Dpsrkp, DPS   "/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-    <title>Avikam Mangla!</title>
+    <title>Avikam Mangla</title>
     <link rel="shortcut icon" href={siteicon} />
           
     </Helmet>
@@ -42,14 +42,13 @@ const IndexPage = () => (
       <div id="navbarBasicExample" class="navbar-menu">
         
     
-        <div class="navbar-end">
-          <a class="navbar-item" activeClassName="navbar-item" target="_blank" href="http://blog.avikammangla.co/">
-              Blog
-            </a>
-      
+        <div class="navbar-end">     
             <Link class="navbar-item" to="/resume" activeClassName="navbar-item">
               Resume
             </Link>
+            <a class="navbar-item" activeClassName="navbar-item" target="_blank" href="http://blog.avikammangla.co/">
+              Blog
+            </a>
         </div>
       </div>
     </nav>
