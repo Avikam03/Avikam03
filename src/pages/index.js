@@ -26,7 +26,7 @@ const IndexPage = () => (
     <link rel="shortcut icon" href={siteicon} />
           
     </Helmet>
-    <nav className="navbar mx-6 mt-4 mb-6 pb-6" role="navigation" aria-label="main navigation">
+    <nav className="navbar mx-6 mt-4 mb-4 pb-6" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
           <Link class="navbar-item" activeClassName="navbar-item" to="/">
             <strong>AVIKAM MANGLA</strong>
@@ -71,11 +71,11 @@ const IndexPage = () => (
     <section class="section hero is-light mt-6 pt-6">
     <div class="columns is-multiline mx-6">
         <div class="column has-text-centered">
-          <div class="content is-large">
-            <h2 class = "title is-1">About</h2>
-            <p>I'm Avikam, a High School Senior at Delhi Public School  R K Puram.</p>
-            <p>I love creating things, and most importantly, putting my skills to good use.</p>
-            <p>Over the summer vacations, I taught myself how to develop web applications. Ever since, I've made over a dozen web applications, and am really enjoying being a part of the developer community.</p>
+          <h2 class = "title is-1">About</h2>
+          <div class="content is-medium">
+            <p>I'm Avikam, a High School Senior at Delhi Public School  R K Puram. I love creating things, and most importantly, putting my skills to good use. Over the summer vacations, I taught myself how to develop web applications. Ever since, I've made over a dozen web applications, and am really enjoying being a part of the developer community.</p>
+            {/* <p>I love creating things, and most importantly, putting my skills to good use.</p>
+            <p>Over the summer vacations, I taught myself how to develop web applications. Ever since, I've made over a dozen web applications, and am really enjoying being a part of the developer community.</p> */}
           </div>
         </div>
 
