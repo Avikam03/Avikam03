@@ -105,16 +105,16 @@ const IndexPage = () => (
                 </h1>
                 <h1 class="subtitle is-6">
                     Class 11 & 12 - Physics, Mathematics, Chemistry, Computer Science, English
-                    <h1 class="title is-5 mt-3">
-                      <strong>Activities and Socities:</strong>
-                    </h1>
-                    <h1 class="subtitle is-6">
-                      <ul>
-                        <li><strong>President</strong>, The Entrepreneurship Club (Enship) - 2019-2021</li>
-                        <li><strong>Member</strong>, Student Council - 2019-2020</li>
-                      </ul>
-                    </h1>  
                 </h1>
+                <h1 class="title is-5 mt-3">
+                  <strong>Activities and Socities:</strong>
+                </h1>
+                <h1 class="subtitle is-6">
+                  <ul>
+                    <li><strong>President</strong>, The Entrepreneurship Club (Enship) - 2019-2021</li>
+                    <li><strong>Member</strong>, Student Council - 2019-2020</li>
+                  </ul>
+                </h1>  
                 <h1 class="title is-4 mt-3">
                   Previous Schools:
                 </h1>
@@ -145,7 +145,7 @@ const IndexPage = () => (
                   <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span>
                 </h1>
-                <p class="subtitle">Python, Javascript, HTML, CSS</p>
+                <p class="subtitle">Django(Full Stack), ReactJS, ExpressJS, HTML, CSS</p>
                 <h1 class="title is-4 mt-3">
                   Mobile App Development &nbsp;
                   <span class="fa fa-star"></span>
