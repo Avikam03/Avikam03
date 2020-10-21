@@ -185,7 +185,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <div class="content has-text-centered mb-6 mt-6">
+    <div class="content hero is-light has-text-centered pb-6 pt-6">
       <p id="sociallinks">
         <a class="fa fa-github mr-1 ml-1" href="https://www.github.com/avikam03"></a>
         <a class="fa fa-linkedin mr-1 ml-1" href="https://www.linkedin.com/in/avikammangla"></a>
