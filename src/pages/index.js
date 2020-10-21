@@ -127,9 +127,10 @@ const IndexPage = () => (
                   Standardised Test Scores
                 </h1>
                 <ul class="subtitle is-6">
-                  <li>SAT: 1510 Superscore (EBRW- 710, Math- 800)</li>
+                  <li>SAT: 1510 Superscore (EBRW|710, Math|800)</li>
                   <li>AP Calculus BC: 5</li>
                   <li>AP Computer Science: 4</li>
+                  <li>IELTS: 8.5 (R|9, L|9, W|7.5, S|7.5</li>
                 </ul>
               </div>
               <div class="column ml-5">
