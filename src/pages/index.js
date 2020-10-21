@@ -127,10 +127,10 @@ const IndexPage = () => (
                   Standardised Test Scores
                 </h1>
                 <ul class="subtitle is-6">
-                  <li>SAT: 1510 Superscore (EBRW|710, Math|800)</li>
+                  <li>SAT: 1510 Superscore (EBRW | 710, Math | 800)</li>
                   <li>AP Calculus BC: 5</li>
                   <li>AP Computer Science: 4</li>
-                  <li>IELTS: 8.5 (R|9, L|9, W|7.5, S|7.5</li>
+                  <li>IELTS: 8.5 (R | 9, L | 9, W | 7.5, S | 7.5)</li>
                 </ul>
               </div>
               <div class="column ml-5">
@@ -178,14 +178,14 @@ const IndexPage = () => (
                   <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span>
                 </h1>
-                <p class="subtitle">Git, MySQL, LaTeX, </p>
+                <p class="subtitle">Git, MySQL, LaTeX</p>
               </div>
           </div>
         </section>
       </div>
     </section>
 
-    <div class="content hero is-light has-text-centered pb-6 pt-6">
+    <div class="content hero is-light has-text-centered pb-6 pt-6 mt-6">
       <p id="sociallinks">
         <a class="fa fa-github mr-1 ml-1" href="https://www.github.com/avikam03"></a>
         <a class="fa fa-linkedin mr-1 ml-1" href="https://www.linkedin.com/in/avikammangla"></a>
