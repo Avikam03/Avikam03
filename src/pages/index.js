@@ -181,7 +181,7 @@ const IndexPage = () => (
                 <p class="subtitle">Git, MySQL, LaTeX</p>
               </div>
           </div>
-        </section>
+        </section>n
       </div>
     </section>
 
