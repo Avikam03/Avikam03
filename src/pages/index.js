@@ -104,36 +104,43 @@ const IndexPage = () => (
                   Delhi Public School R K Puram - Class of 2021
                 </h1>
                 <h1 class="subtitle is-6">
-                    Class 11 & 12 - Physics, Mathematics, Chemistry, Computer Science, English
+                    Class 12 & 11 - Physics, Mathematics, Chemistry, Computer Science, English
                 </h1>
-                <h1 class="title is-5 mt-3">
+                <h1 class="title is-4 mt-3">
                   <strong>Activities and Socities:</strong>
                 </h1>
-                <h1 class="subtitle is-6">
+                <h1 class="subtitle is-5">
                   <ul>
-                    <li><strong>President</strong>, The Entrepreneurship Club (Enship) - 2019-2021</li>
+                    <li><strong>President</strong>, The Entrepreneurship Club (Enship)</li>
                     <li><strong>Member</strong>, Student Council - 2019-2020</li>
                   </ul>
                 </h1>  
                 <h1 class="title is-4 mt-3">
+                  School Percentage %:
+                </h1>
+                <ul class="subtitle is-6">
+                    <li>Class 12: 96.8% | Class 11: 83.6%</li>
+                    <li>Class 10: 96.4% | Class 9: 90.1%</li>
+                </ul>
+                {/* <h1 class="title is-4 mt-3">
                   Previous Schools:
                 </h1>
                 <ul class="subtitle is-6">
                     <li>G D Goenka Public School (2016-2019)</li>
                     <li>Anglo Chinese School Independent (2016-2016)</li>
                     <li>Global Indian International School, Singapore (2007-2015)</li>
-                </ul>
+                </ul> */}
                 <h1 class="title is-4 mt-3">
                   Standardised Test Scores
                 </h1>
                 <ul class="subtitle is-6">
-                  <li>SAT: 1510 Superscore (EBRW | 710, Math | 800)</li>
+                  <li>SAT: 1510 Superscore (EBRW: 710, Math: 800)</li>
                   <li>AP Calculus BC: 5</li>
                   <li>AP Computer Science: 4</li>
-                  <li>IELTS: 8.5 (R | 9, L | 9, W | 7.5, S | 7.5)</li>
+                  <li>IELTS: 8.5 (R: 9, L: 9, W: 7.5, S: 7.5)</li>
                 </ul>
               </div>
-              <div class="column ml-5">
+              <div class="column ml-6">
                 <p class="title is-2">
                   <img src="https://img.icons8.com/fluent/48/000000/work.png"/>
                   Skills
@@ -181,7 +188,7 @@ const IndexPage = () => (
                 <p class="subtitle">Git, MySQL, LaTeX</p>
               </div>
           </div>
-        </section>n
+        </section>
       </div>
     </section>
 
