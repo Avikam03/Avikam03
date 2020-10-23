@@ -14,7 +14,8 @@ const Resume = () => (
     <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Avikam Mangla</title>
+          <title>Work | Avikam Mangla</title>
+          <meta name="keywords" content="Avikam, Mangla, Avikam Mangla, Enship, Dpsrkp, DPS, Avikam Mangla DPSRKP, avikammangla  "/>
         </Helmet>
         <nav className="navbar mx-6 mt-4 mb-6 pb-6" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
@@ -33,8 +34,8 @@ const Resume = () => (
                 
             
                 <div class="navbar-end">
-                <Link class="navbar-item" to="/resume" activeClassName="navbar-item">
-                    Resume
+                <Link class="navbar-item" to="/work" activeClassName="navbar-item">
+                    Work
                 </Link>
                 <a class="navbar-item" activeClassName="navbar-item" href="http://blog.avikammangla.co/">
                     Blog

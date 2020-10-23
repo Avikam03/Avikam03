@@ -19,13 +19,15 @@ const IndexPage = () => (
     <meta name="description"
       content="Avikam Mangla | High School Senior | Developer "
     />
-    <meta name="keywords" content="Avikam, Mangla, Avikam Mangla, Enship, Dpsrkp, DPS   "/>
+    <meta name="keywords" content="Avikam, Mangla, Avikam Mangla, Enship, Dpsrkp, DPS, Avikam Mangla DPSRKP, avikammangla  "/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-    <title>Avikam Mangla</title>
+    <title>Home | Avikam Mangla</title>
     <link rel="shortcut icon" href={siteicon} />
           
     </Helmet>
+
+
     <nav className="navbar mx-6 mt-4 mb-4 pb-6" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
           <Link class="navbar-item" activeClassName="navbar-item" to="/">
@@ -43,8 +45,8 @@ const IndexPage = () => (
         
     
         <div class="navbar-end">     
-            <Link class="navbar-item" to="/resume" activeClassName="navbar-item">
-              Resume
+            <Link class="navbar-item" to="/work" activeClassName="navbar-item">
+              Work
             </Link>
             <a class="navbar-item" activeClassName="navbar-item" target="_blank" href="http://blog.avikammangla.co/">
               Blog
@@ -140,7 +142,7 @@ const IndexPage = () => (
                   <li>IELTS: 8.5 (R: 9, L: 9, W: 7.5, S: 7.5)</li>
                 </ul>
               </div>
-              <div class="column ml-6">
+              <div class="column ml-5">
                 <p class="title is-2">
                   <img src="https://img.icons8.com/fluent/48/000000/work.png"/>
                   Skills
