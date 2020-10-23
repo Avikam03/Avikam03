@@ -105,3 +105,17 @@ input:checked + .slider:before {
 #myimage{
   border-radius: 50%;
 }
+
+#myname {
+  font-size: 72px;
+  /* background: -webkit-linear-gradient(#eee, #3F3D56); */
+  /* background: -webkit-linear-gradient(90deg,#83b6d3 0,#484acc 50%,#1a0a3f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  text-decoration: none;
+    color: var(--textNormal);
+    background: linear-gradient(90deg,  #559bc3 0,#484acc 50%,#1a0a3f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

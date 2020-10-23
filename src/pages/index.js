@@ -59,8 +59,10 @@ const IndexPage = () => (
     <div class="columns is-multiline mx-6 mb-6">
         <div class="column is-half ">
           <div class="content is-large">
-            <p class = "title is-1 mt-2">Hey There!</p>
-            <p class = "subtitle is-2">I'm <strong>Avikam Mangla</strong>, a 17 year old programmer from New Delhi.</p>
+            <h1 id= "myname">Avikam</h1>
+            <p class = "subtitle is-2">Hey There! I'm a 17 year old programmer from New Delhi.</p>
+            {/* <p class = "title is-1 mt-2">Hey There!</p>
+            <p class = "subtitle is-2">I'm <strong>Avikam Mangla</strong>, a 17 years-old programmer from New Delhi.</p> */}
           </div>
         </div>
         <div class="column ml-6">
