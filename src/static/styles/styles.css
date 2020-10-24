@@ -104,9 +104,11 @@ input:checked + .slider:before {
 
 #myimage{
   border-radius: 50%;
+  /* border: 10px solid #ffffff; */
   display: block;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 

@@ -1,9 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
 import { Helmet } from "react-helmet"
 
 // import 'react-bulma-components/dist/react-bulma-components.min.css'
@@ -11,6 +8,8 @@ import '../static/styles/styles.css'
 import '../static/styles/bulma.css'
 
 import siteicon from "../images/media/favicon.ico"
+import Navbar from "../components/navbar"
+
 
 
 const Resume = () => (
@@ -23,35 +22,8 @@ const Resume = () => (
           <link rel="shortcut icon" href={siteicon} />
         </Helmet>
         
-        <nav className="navbar mx-6 mt-4 pb-3" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <Link class="navbar-item" activeClassName="navbar-item" to="/">
-                <strong>AVIKAM MANGLA</strong>
-                </Link>
-            
-                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                </a>
-            </div>
-            
-            <div id="navbarBasicExample" class="navbar-menu">
-                
-            
-                <div class="navbar-end">
-                <Link class="navbar-item" to="/about" activeClassName="navbar-item">
-                    About
-                </Link>
-                <Link class="navbar-item" to="/work" activeClassName="navbar-item">
-                    Work
-                </Link>
-                <a class="navbar-item" activeClassName="navbar-item" href="http://blog.avikammangla.co/">
-                    Blog
-                </a>
-                </div>
-            </div>
-        </nav>
+      
+        <Navbar/>
 
         <h1 class="title is-1 has-text-centered">About</h1>
         
@@ -62,7 +34,6 @@ const Resume = () => (
         <section class="section mt-6 pt-6">
             <div class="columns is-multiline mx-6">
                 <div class="column has-text-centered">
-                    {/* <h2 class = "title is-1">About</h2> */}
                     <div class="content is-large">
                     <p>I'm <strong>Avikam Mangla</strong>, a High School Senior at Delhi Public School  R K Puram. I love creating things, and most importantly, putting my skills to good use. Over the summer vacations, I taught myself how to develop web applications. Ever since, I've made over a dozen web applications, and am really enjoying being a part of the developer community.</p>
                     </div>
@@ -107,7 +78,7 @@ const Resume = () => (
                   School Percentage %:
                 </h1>
                 <ul class="subtitle is-6">
-                    <li>Class 12: 96.8% | Class 11: 83.6%</li>
+                    <li>Class 12 [Predicted]: 96.8% | Class 11: 83.6%</li>
                     <li>Class 10: 96.4% | Class 9: 90.1%</li>
                 </ul>
                 {/* <h1 class="title is-4 mt-3">
