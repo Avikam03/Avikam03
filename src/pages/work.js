@@ -35,6 +35,9 @@ const Resume = () => (
                 
             
                 <div class="navbar-end">
+                <Link class="navbar-item" to="/about" activeClassName="navbar-item">
+                    About
+                </Link>
                 <Link class="navbar-item" to="/work" activeClassName="navbar-item">
                     Work
                 </Link>

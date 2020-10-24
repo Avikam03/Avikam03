@@ -104,7 +104,11 @@ input:checked + .slider:before {
 
 #myimage{
   border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 #myname {
   font-size: 72px;
