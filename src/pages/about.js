@@ -48,7 +48,7 @@ const Resume = () => (
               Stuff about me
             </h1>
             <p class="subtitle">
-              Adding this so my website doesn't look blank lol 
+              Adding this so this page doesn't look blank lol 
             </p>
           </center>
 
