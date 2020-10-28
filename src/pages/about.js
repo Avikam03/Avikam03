@@ -27,8 +27,12 @@ const Resume = () => (
 
         <h1 class="title is-1 has-text-centered">About</h1>
         
-        <div id="myimagediv">
+        {/* <div id="myimagediv">
             <img id="myimage" src="https://avatars0.githubusercontent.com/u/24971199?s=400&u=c81b9b01013e9dcf731a2ce8bea03768f2ee6341&v=4"/>
+        </div> */}
+
+        <div id="myimagediv">
+            <img id="myimage" src="https://i.ibb.co/ssWJgkx/IMG-5814.jpg"/>
         </div>
 
         <section class="section mt-6 pt-6">

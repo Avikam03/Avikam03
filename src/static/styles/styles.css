@@ -108,6 +108,8 @@ input:checked + .slider:before {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 400px;
+  width: 400px;
   
 }
 
