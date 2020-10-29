@@ -26,10 +26,6 @@ const Resume = () => (
         <Navbar/>
 
         <h1 class="title is-1 has-text-centered">About</h1>
-        
-        {/* <div id="myimagediv">
-            <img id="myimage" src="https://avatars0.githubusercontent.com/u/24971199?s=400&u=c81b9b01013e9dcf731a2ce8bea03768f2ee6341&v=4"/>
-        </div> */}
 
         <div id="myimagediv">
             <img id="myimage" src="https://i.ibb.co/ssWJgkx/IMG-5814.jpg"/>
@@ -56,9 +52,14 @@ const Resume = () => (
             </p>
           </center>
 
-        <section class="section">
-          <div class="columns is-multiline mx-6 pt-6">
-              <div class="column is-half mr-6">
+        <section class="section ">
+          {/* <div class="columns is-multiline mx-6 pt-6"> */}
+          <div class="columns is-multiline">
+              {/* <div class="column is-half mr-6"> */}
+              <div class="column is-narrow"></div>
+              <div class="column is-narrow"></div>
+              <div class="column is-narrow"></div>
+              <div class="column is-half">
                 <p class="title is-2 ">
                   <img src="https://img.icons8.com/color/48/000000/books.png"/>
                   Education
@@ -103,7 +104,8 @@ const Resume = () => (
                   <li>IELTS: 8.5 (R: 9, L: 9, W: 7.5, S: 7.5)</li>
                 </ul>
               </div>
-              <div class="column ml-5">
+              {/* <div class="column ml-5"> */}
+              <div class="column">
                 <p class="title is-2">
                   <img src="https://img.icons8.com/fluent/48/000000/work.png"/>
                   Skills
