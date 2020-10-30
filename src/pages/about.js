@@ -52,10 +52,11 @@ const Resume = () => (
             </p>
           </center>
 
-        <section class="section ">
+        <section class="section mt-3">
           {/* <div class="columns is-multiline mx-6 pt-6"> */}
           <div class="columns is-multiline">
               {/* <div class="column is-half mr-6"> */}
+              <div class="column is-narrow"></div>
               <div class="column is-narrow"></div>
               <div class="column is-narrow"></div>
               <div class="column is-narrow"></div>
@@ -71,7 +72,7 @@ const Resume = () => (
                     Class 12 & 11 - Physics, Mathematics, Chemistry, Computer Science, English
                 </h1>
                 <h1 class="title is-4 mt-3">
-                  <strong>Activities and Socities:</strong>
+                  <strong>Activities and Socities</strong>
                 </h1>
                 <h1 class="subtitle is-5">
                   <ul>
@@ -80,7 +81,7 @@ const Resume = () => (
                   </ul>
                 </h1>  
                 <h1 class="title is-4 mt-3">
-                  School Percentage %:
+                  School Grades
                 </h1>
                 <ul class="subtitle is-6">
                     <li>Class 12 [Predicted]: 96.8% | Class 11: 83.6%</li>
@@ -98,10 +99,11 @@ const Resume = () => (
                   Standardised Test Scores
                 </h1>
                 <ul class="subtitle is-6">
-                  <li>SAT: 1510 Superscore (EBRW: 710, Math: 800)</li>
-                  <li>AP Calculus BC: 5</li>
-                  <li>AP Computer Science: 4</li>
-                  <li>IELTS: 8.5 (R: 9, L: 9, W: 7.5, S: 7.5)</li>
+                  <li>SAT: 1510/1600 Superscore (EBRW: 710, Math: 800)</li>
+                  <l1>Essay: 20/24 (R: 8, A: 4, W: 8)</l1>
+                  <li>AP Calculus BC: 5/5</li>
+                  <li>AP Computer Science: 4/5</li>
+                  <li>IELTS: 8.5/9 (R: 9, L: 9, W: 7.5, S: 7.5)</li>
                 </ul>
               </div>
               {/* <div class="column ml-5"> */}
@@ -118,7 +120,16 @@ const Resume = () => (
                   <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span>
                 </h1>
-                <p class="subtitle">Django(Full Stack), ReactJS, ExpressJS, HTML, CSS</p>
+                <p class="subtitle">Django(Full Stack), ReactJS, NodeJS</p>
+                <h1 class="title is-4 mt-3">
+                  Web Design &nbsp;
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </h1>
+                <p class="subtitle">HTML, CSS, Javascript</p>
                 <h1 class="title is-4 mt-3">
                   Mobile App Development &nbsp;
                   <span class="fa fa-star"></span>
