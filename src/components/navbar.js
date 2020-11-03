@@ -33,9 +33,6 @@ const Navbar = () => (
                     <Link class="navbar-item" to="/work" activeClassName="navbar-item">
                     Work
                     </Link>
-                    <a class="navbar-item" activeClassName="navbar-item" target="_blank" href="http://blog.avikammangla.co/">
-                    Blog
-                    </a>
                 </div>
             </div>
         </nav>
