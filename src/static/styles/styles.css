@@ -120,10 +120,11 @@ input:checked + .slider:before {
   /* background: -webkit-linear-gradient(90deg,#83b6d3 0,#484acc 50%,#1a0a3f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
-  text-decoration: none;
+  
+  /* text-decoration: none;
     color: var(--textNormal);
     background: linear-gradient(90deg,  #559bc3 0,#484acc 50%,#1a0a3f);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }

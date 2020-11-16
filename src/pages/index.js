@@ -7,7 +7,7 @@ import Img from "gatsby-image"
 import '../static/styles/styles.css'
 import '../static/styles/bulma.css'
 
-import image from "../images/media/undraw_source_code_xx2e.svg"
+import image from "../images/media/illus2.svg"
 import siteicon from "../images/media/favicon.ico"
 import Navbar from "../components/navbar"
 
@@ -29,16 +29,16 @@ const IndexPage = () => (
 
     <Navbar/>
 
-    <section class="section mt-6">
-    <div class="columns is-multiline mx-6 mb-6 mt-3">
-        <div class="column is-half ">
+    <section class="section mt-5">
+    <div class="columns is-multiline mx-6">
+        <div class="column is-half mt-6">
           <div class="content is-large">
             <h1 id= "myname">Avikam</h1>
             <p class = "subtitle is-2">Hey There! I'm a 17 year old programmer from New Delhi.</p>
           </div>
         </div>
         <div class="column ml-6">
-            <img src={image} height="6  00" width="700" />
+            <img class="ml-6" src={image} height="450" width="450" />
         </div>
     </div>
     </section>

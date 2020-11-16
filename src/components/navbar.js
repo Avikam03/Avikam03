@@ -10,7 +10,7 @@ import '../static/styles/bulma.css'
 
 const Navbar = () => (
     <div>
-        <nav className="navbar mx-6 mt-4 pb-3" role="navigation" aria-label="main navigation">
+        <nav className="navbar mx-6 mt-4" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <Link class="navbar-item" activeClassName="navbar-item" to="/">
                     <strong>AVIKAM MANGLA</strong>
