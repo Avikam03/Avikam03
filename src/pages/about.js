@@ -83,7 +83,10 @@ const Resume = () => (
                 <h1 class="title is-4 mt-3">
                   School Grades
                 </h1>
-                
+                <ul class="subtitle is-6">
+                    <li>Class 12 [Predicted]: 96.8% | Class 11: 83.6%</li>
+                    <li>Class 10: 96.4% | Class 9: 90.1%</li>
+                </ul>
                 {/* <h1 class="title is-4 mt-3">
                   Previous Schools:
                 </h1>
@@ -92,7 +95,16 @@ const Resume = () => (
                     <li>Anglo Chinese School Independent (2016-2016)</li>
                     <li>Global Indian International School, Singapore (2007-2015)</li>
                 </ul> */}
-                
+                <h1 class="title is-4 mt-3">
+                  Standardised Test Scores
+                </h1>
+                <ul class="subtitle is-6">
+                  <li>SAT: 1510/1600 Superscore (EBRW: 710, Math: 800)</li>
+                  <l1>Essay: 20/24 (R: 8, A: 4, W: 8)</l1>
+                  <li>AP Calculus BC: 5/5</li>
+                  <li>AP Computer Science: 4/5</li>
+                  <li>IELTS: 8.5/9 (R: 9, L: 9, W: 7.5, S: 7.5)</li>
+                </ul>
               </div>
               {/* <div class="column ml-5"> */}
               <div class="column">
