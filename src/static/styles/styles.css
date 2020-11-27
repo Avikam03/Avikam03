@@ -128,3 +128,14 @@ input:checked + .slider:before {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
 }
+/* 
+body{
+  color: white
+} */
+
+.navbarr {
+  background-color: white;
+  min-height: 3.25rem;
+  position: relative;
+  z-index: 30;
+}
