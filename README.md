@@ -5,6 +5,6 @@
 
   I'm always open to discuss new ideas / products
 
-  You can reach out to me via [linkedin](https://www.linkedin.com/in/avikammangla/) / [email](mailto:a3mangla@uwaterloo.ca) 
+  You can reach out to me via [linkedin](https://www.linkedin.com/in/avikammangla/) / [email](mailto:me@avikammangla.com) 
   
 </center>
