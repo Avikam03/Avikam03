@@ -5,6 +5,6 @@
 
   I'm always open to discuss new ideas / products
 
-  You can reach out to me via [linkedin](https://www.linkedin.com/in/avikammangla/) / [email](mailto:me@avikammangla.com) 
+  You can reach out to me via [linkedin](https://www.linkedin.com/in/avikammangla/) / [email](mailto:avikam03@gmail.com) 
   
 </center>
